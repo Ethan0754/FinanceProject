@@ -1,4 +1,1 @@
-package PACKAGE_NAME;
-
-public record BudgetType() {
-}
+public record BudgetType(String type, String cat, boolean credit, boolean recurring) {}

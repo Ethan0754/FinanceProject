@@ -1,5 +1,16 @@
+import javax.swing.*;
+import java.awt.*;
+
 public class Budget {
+
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        JFrame frame = new JFrame("Budget");
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        BudgetPanel panel = new BudgetPanel();
+
+        frame.setContentPane(panel);
+
+        frame.setVisible(true);
     }
 }
