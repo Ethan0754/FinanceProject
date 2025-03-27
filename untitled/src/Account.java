@@ -1,14 +1,11 @@
-import java.util.Objects;
-import java.util.Scanner;
-
 public class Account {
-    private final BudgetItem budgetItem;
+    private final Budget budgetItem;
 
     Account() {
-        budgetItem = new BudgetItem();
+        budgetItem = new Budget();
     }
 
-    public BudgetItem getBudgetItem() {
+    public Budget getBudgetItem() {
         return budgetItem;
     }
 }

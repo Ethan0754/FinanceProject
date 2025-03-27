@@ -1,1 +1,1 @@
-public record BudgetType(String type, String cat, boolean credit, boolean recurring) {}
+public record BudgetType(String type, String cat, boolean credit, boolean recurring, double amount) {}
